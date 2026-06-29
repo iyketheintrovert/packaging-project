@@ -12,10 +12,14 @@
     "staging": "NODE_ENV=staging node src/app.js",
     "build": "mkdir -p build && cp -r src config package.json build/",
     "package": "powershell Compress-Archive -Path build -DestinationPath app-package.zip -Force",
+    "test": "jest",
     "audit": "npm audit"
   },
   "dependencies": {
     "dotenv": "^17.4.2",
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2"
   }
 }
