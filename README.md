@@ -40,7 +40,7 @@ Semantic Versioning (MAJOR.MINOR.PATCH):
 - MINOR: New features
 - MAJOR: Breaking changes
 
-Current Version: 1.2.0 (Semantic Versioning Applied)
+Current Version: 1.0.0 (Semantic Versioning Applied)
 
 ## Security Audit
 
