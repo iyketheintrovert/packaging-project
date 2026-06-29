@@ -56,3 +56,7 @@ No critical vulnerabilities detected.
 
 npm pack
 npm install ./app-packaging-project-1.0.0.tgz
+
+## Screenshots for Logs
+![Dev Environment Running](img/running-dev.png)
+![Staging Environment Running](img/running-staging.png)
