@@ -1,6 +1,6 @@
 {
   "name": "app-packaging-project",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "sample application demonstrating packaging and dependency management",
   "license": "ISC",
   "author": "sageiyke",
@@ -12,7 +12,7 @@
     "staging": "NODE_ENV=staging node src/app.js",
     "build": "mkdir -p build && cp -r src config package.json build/",
     "package": "powershell Compress-Archive -Path build -DestinationPath app-package.zip -Force",
-    "test": "jest",
+    "test": "npm jest",
     "audit": "npm audit"
   },
   "dependencies": {
