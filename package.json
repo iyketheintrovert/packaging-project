@@ -13,7 +13,8 @@
     "build": "mkdir -p build && cp -r src config package.json build/",
     "package": "powershell Compress-Archive -Path build -DestinationPath app-package.zip -Force",
     "test": "jest",
-    "audit": "npm audit"
+    "audit": "npm audit",
+    "verify": "shasum -a 256 -c checksum.txt"
   },
   "dependencies": {
     "dotenv": "^17.4.2",

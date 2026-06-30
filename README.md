@@ -57,6 +57,13 @@ No critical vulnerabilities detected.
 npm pack
 npm install ./app-packaging-project-1.0.0.tgz
 
+## Artifact Verification
+
+To verify the integrity of generated artifacts:
+
+```bash
+npm run verify
+
 ## Screenshots for Logs
 ![Dev Environment Running](img/running-dev.png)
 ![Staging Environment Running](img/running-staging.png)
